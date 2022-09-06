@@ -1,0 +1,16 @@
+{
+  "name": "clase-05-09-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:find": "node comandos/find.js",
+    "test:filter": "node comandos/filter.js",
+    "test:edit": "node comandos/edit.js",
+    "test:list": "node comandos/list.js",
+    "start": "node tasks.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

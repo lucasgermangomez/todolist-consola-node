@@ -1,0 +1,1 @@
+const tasksData = require('../tasksData');
