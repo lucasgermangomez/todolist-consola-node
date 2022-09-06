@@ -5,8 +5,7 @@ const list = () => {
     const array = [];
 
     for (task of tasksData) {
-        const arr = task.title;
-        array.push(arr);
+        array.push(task.title);
     }
     return JSON.stringify(array);
 }
