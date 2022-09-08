@@ -34,7 +34,7 @@ switch (action) {
             return console.log("Debes ingresar un titulo");
         } 
         
-        if (retorno(titulo) === false) {
+        if (!retorno(titulo)) {
             return console.log("El titulo ingresado no existe");
             }
 

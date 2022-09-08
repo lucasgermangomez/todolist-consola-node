@@ -3,7 +3,7 @@ const tasksData = require('../tasksData');
 const filter = (string) => {
     const coincidencias = [];
     for (task of tasksData) {
-        if (task.title.includes(string)) {
+        if (task.title.toLowerCase().includes(string.toLowerCase())) {
             coincidencias.push(task.title);
         }
     }
